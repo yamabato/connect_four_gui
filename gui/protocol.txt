@@ -1,0 +1,18 @@
+エンジン確認
+G: connectFour
+E: OK,ENGINE
+
+エンジン登録時
+G: engine
+E: <NAME>
+
+ゲーム中
+G: kifu <棋譜(124245)><手番+ or ->
+E: (msg <MSG>)何個でも
+   drop <場所(0~6) or resign>
+
+終了
+G: resign(相手の投了)
+   win <勝者 0 or 1 or -1)
+
+改行をして値を送る
